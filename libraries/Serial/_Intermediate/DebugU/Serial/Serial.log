@@ -1,0 +1,20 @@
+﻿Build started 28/06/2015 1:22:41.
+     1>Project "C:\Users\AlexDevesa\Desktop\Serial\Serial\Serial.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D UNICODE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\_Intermediate\DebugU\Serial/" /Fd".\..\_Intermediate\DebugU\Serial/vc120.pdb" /Gz /TP /analyze- /errorReport:prompt Serial.cpp SerialEx.cpp SerialWnd.cpp
+         Serial.cpp
+         SerialEx.cpp
+         SerialWnd.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\AlexDevesa\Desktop\Serial\Serial\.\..\_Output\DebugU\Serial.lib) does not match the Library's OutputFile property value (C:\Users\AlexDevesa\Desktop\Serial\_Output\DebugU\SerialDU.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(Serial) does not match the Library's OutputFile property value (SerialDU). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\_Output\DebugU\SerialDU.lib" /NOLOGO .\..\_Intermediate\DebugU\Serial/Serial.obj
+         .\..\_Intermediate\DebugU\Serial/SerialEx.obj
+         .\..\_Intermediate\DebugU\Serial/SerialWnd.obj
+         Serial.vcxproj -> C:\Users\AlexDevesa\Desktop\Serial\Serial\.\..\_Output\DebugU\Serial.lib
+     1>Done Building Project "C:\Users\AlexDevesa\Desktop\Serial\Serial\Serial.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.52
